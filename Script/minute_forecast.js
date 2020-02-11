@@ -158,8 +158,8 @@ TG频道:@meetashare
 
 
 
-const address = "&location=填经纬度";
-const k = "&key=填入和风天气key";
+const address = "&location=32.1005453,118.8105549";
+const k = "&key=f453579d13c14a9aa97a609a322e41c0";
 
 const wea = "https://free-api.heweather.net/s6/weather/now?"+address+k;
 const forecast = "https://widget-api.heweather.net/s6/plugin/sticker?key=acd0fdcab4b9481a98d0f59145420fac&location="+$persistentStore.read("cid")+"&lang=zh";
