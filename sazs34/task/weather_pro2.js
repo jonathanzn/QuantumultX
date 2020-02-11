@@ -5,8 +5,8 @@ https://github.com/sazs34/TaskConfig/blob/master/assets/weather_pro.md
 let config = {
     darksky_api: "key填这里", //从https://darksky.net/dev/ 上申请key填入即可
     aqicn_api: "key填这里", //从http://aqicn.org/data-platform/token/#/ 上申请key填入即可
-    huweather_apiKey: "key填这里", //和风天气APIkey,可自行前往 https://dev.heweather.com/ 进行获取(注意key类型选WebApi)
-    lat_lon: "经纬度填这里", //请填写经纬度,直接从谷歌地图中获取即可
+    huweather_apiKey: "f453579d13c14a9aa97a609a322e41c0", //和风天气APIkey,可自行前往 https://dev.heweather.com/ 进行获取(注意key类型选WebApi)
+    lat_lon: "32.1005453,118.8105549", //请填写经纬度,直接从谷歌地图中获取即可
     lang: "zh", //语言,随意切换为您想要的语言哦(zh/zh-tw/ja/en/fr/...)
     log: 0, //调试日志,0为不开启,1为开启,2为开启精简日志
     timeout: 0, //超时时间,单位毫秒(1000毫秒=1秒),一般不推荐修改[为0则不限制超时时间]
